@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "../app/page.module.css";
+
 import { useState } from "react";
 
 export default function Clicker() {
@@ -12,7 +12,7 @@ export default function Clicker() {
    }
 
    return (
-      <div className={styles.card} style={{ flex: 0.3 }}>
+      <div className = "flex flex-col flex-[0.3] items-center">
          <div>Total clicks:{countClick}</div>
          <button onClick={functionName} >Click Here!</button>
       </div>
